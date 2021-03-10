@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Youtube Clone</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header  -->
@@ -26,36 +29,100 @@
 
     </section>
 
-    <!-- viedeo info -->
-    <section class="info">
-        <div class="metadata">
-            <ul class="hashtags">
-                <li>#Clone Coding</li>
-                <li>#Amen0920</li>
-                <li>#Programming</li>
-            </ul>
-            <ul class="titleAndButton">
-                <span class="title">
-                    HTML - 1 | HTML- How To Design Youtube And Clone Form In HTML
-                </span>
-                <button class="moreBtn">
-                    <i class="fas fa-caret-down"></i>
-                </button>
-            </div>
-            <ul class="views">
+    <div class="infoAndUpNext">
+        <!-- viedeo info -->
+        <section class="info">
+            <!-- metadata -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#Clone Coding</li>
+                    <li>#Amen0920</li>
+                    <li>#Programming</li>
+                </ul>
+                <ul class="titleAndButton">
+                    <span class="title">
+                        HTML - 1 | HTML- How To Design Youtube And Clone Form In HTML
+                        Basic Programming, Internet, HTML, CSS, HTML5, Java, JavaScript, Basic,
+                        Programmer
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
                 <span class="views">1M views 1 month ago</span>
             </div>
-        </div>
-        <div class="actions">
-            <li><button><i class="fas fa-thumbs-up"></i></button></li>
-            <li><button><i class="fas fa-thumbs-down"></i></button></li>
-            <li><button><i class="fas fa-share"></i></button></li>
-            <li><button><i class="fas fa-plus"></i></button></li>
-            <li><button><i class="fas fa-flag"></i></button></li>
-        </div>
-        <div class="channel"></div>
+            <!--actions-->
+            <ul class="actions">
+                <li><button><i class="fas fa-thumbs-up"></i><span>1k</span></button></li>
+                <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+                <li><button><i class="fas fa-share"></i><span>share</span></button></li>
+                <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+                <li><button><i class="fas fa-flag"></i><span>Report</span></button></li>
+            </ul>
 
-    </section>
-    <section class="upNext"></section>
+            <!-- Channel info -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/myimage.jpg" alt=""> 
+                    <div class="info">
+                        <span class="name">Amen0920 by HD</span>
+                        <span class="subscribers">100 subscribers</span></div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+
+        </section>
+        <section class="upNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="img">
+                        <img src="image/1.jpg" alt="">
+                    </div>
+                    
+                    <div class="info">
+                        <span class="title">
+                            CSS - 1 | CSS- How To Design Youtube And Clone Form In CSS Responsive Web
+                        </span>
+                        <span class="name">Amen0920 by HD</span>
+                        <span class="views">50 views</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/2.jpg" alt=""></div>
+                    
+                    <div class="info">
+                        <span class="title">
+                            JavaScript - 1 | JavaScript- How To Design Youtube And Clone Form In JavaScript 
+                            Ajax, JSON, XML
+                        </span>
+                        <span class="name">Amen0920 by HD</span>
+                        <span class="views">65 vies</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="img"> <img src="image/3.jpg" alt=""></div>
+                
+                    <div class="info">
+                        <span class="title">
+                            React - 1 | React- How To Design Youtube And Clone Form In React 
+                            React redux , API , Vuejs, JavaScript
+                        </span>
+                        <span class="name">Amen0920 by HD</span>
+                        <span class="views">33 vies</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
